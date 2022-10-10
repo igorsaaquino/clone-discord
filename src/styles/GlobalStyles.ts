@@ -38,6 +38,6 @@ export default createGlobalStyle`
      
         --link: #5d80d6;
      
-        --username: #6633cc;
+        --brand: #6633cc;
       }
 `;
