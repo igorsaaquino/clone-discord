@@ -22,7 +22,7 @@ export const Button = styled.button<Props>`
         height: 24px;
     }
 
-    & ::before {
+    &::before {
         width: 9px:
         height: 9px;
         position: absolute;
@@ -36,7 +36,7 @@ export const Button = styled.button<Props>`
         display: ${props => (props.hasNotifications ? 'inline' : 'none')}
     }
 
-    & ::after {
+    &::after {
         width: auto;
         height: 16px;
         position: absolute;
